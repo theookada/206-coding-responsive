@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* BASE STYLE */
+body {
+	margin:0px;
+	background-image: url("../img/symphony.png");
+	/* Background image from http://subtlepatterns.com/ */
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: dimgray;
+}
+
+.line-break{
+	border: 1px solid grey;
+  margin: 30px auto;
+  width: 50%;
+}
+
+/* WRAPPER */
+#wrapper{
+	margin-top: 150px;
+}
+
+/* HEADER */
+h1{
+	color:tomato;
+}
+
+.name{
+	margin-bottom: 0px;
+	border: 10px solid tomato;
+	padding: 30px;
+	display: inline;
+}
+
+h2{
+	color:Salmon;
+}
+
+.title{
+	margin-top: 40px;
+    padding: 30px;
+}
+
+
+/* CONTACT */
+.phone-number{
+	color:DarkSeaGreen;
+}
+
+.mail-to{
+	color:DarkSeaGreen;
+	text-decoration:none;
+}
+
+
+/* QUOTE */
+.mission-statement{
+	font-style:italic;
+	font-size:20px;
+	margin-top:50px;
+	line-height:30px;
+}
