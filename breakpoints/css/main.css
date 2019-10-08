@@ -1,6 +1,6 @@
 
 /* ----------- Tablets larger than 768px wide ----------- */
-@media (min-width: 768px) {
+@media (max-width: 1199px) and (min-width: 768px) {
 	body {
     background-color: red;
   }
@@ -11,5 +11,4 @@
 	body{
 		background-color: blue;
 	}
-
 }
