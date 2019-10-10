@@ -58,12 +58,11 @@ header {
   align-items: center;
 	width: 100%;
 	flex-flow: column;
-
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 5% 0;
 	border-bottom: 3px solid #77a466;
 	width: 100%;
 }
@@ -72,7 +71,7 @@ header h1 span {
 }
 
 header nav {
-	padding: 20px 0;
+	padding: 2% 0;
 	width: 100%;
 }
 header nav ul {
@@ -137,9 +136,6 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
-}
-
 .section-two h4,
 .section-three h4 {
 	padding: 10px 0;
@@ -186,17 +182,65 @@ footer span {
 
 /*---------- TABLET ----------*/
 @media (max-width: 1199px) and (min-width: 768px) {
+	.bottom-section {
+		display: flex;
+	  justify-content: center;
+	  align-items: flex-start;
+		flex-flow: row nowrap;
+		border-top: 1px solid #eee;
+		border-bottom: 1px solid #eee;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		border-top: none;
+		padding: 0 2%;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
 
 }
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
 	body {
-		font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+		display: none;
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	header {
+		text-align: left;
+		display: flex;
+	  justify-content: flex-start;
+	  align-items: flex-start;
+		width: 100%;
+		flex-flow: row;
+	}
+
+	header h1 {
+		padding: 0 0;
+		padding: 2.375em 0;
+		border-bottom: none;
+	}
+
+	header nav ul li {
+		display: inline-flex;
+		padding-top: 2.875em;
+	}
+
+	.main-image img {
+		border-top: 3px solid #77a466;
 	}
 
 	.container{
 		max-width: 1200px;
+		width: 90%;
 		margin: 0 auto;
 	}
 
